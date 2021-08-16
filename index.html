@@ -4,97 +4,108 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homework Day 8</title>
-    <style>
-        body {
-            margin: 0;
-        }
-
-        .right {
-            background-color: #2a90eb;
-            position: absolute;
-            right: 0;
-            bottom: 10px;
-            width: 400px;
-            /* top: 20px;
-            left: 0;
-            bottom: 0; */
-
-            }
-
-            .relative {
-                /* background-color: aqua; */
-                height: 973px;
-                position: relative;
-            }
-
-            .box-design {
-                background-color: black;
-                color: white;
-                font-size: 20px;
-                font-weight: bold;
-                height: 200px;
-                width: 200px;
-            }
-
-            .absolute-1{
-                background-color: blue;
-                position: absolute;
-                top: 0;
-                left: 0;
-                /* z-index: 2; */
-            }
-
-            .absolute-2{
-                background-color: purple;
-                /* height: 200px;
-                width: 200px; */
-                position: absolute;
-                bottom: 0;
-                left: 0;
-            }
-
-            .absolute-3{
-                position: absolute;
-                top: 0;
-                right: 0;
-            }
-
-            .absolute-4{
-                position: absolute;
-                bottom: 1px;
-                right: 1px;
-            }
-
-            .absolute-5{
-                position: absolute;
-                top: 35%;
-                left: 45%;
-            }
-
-            /* .absolute {
-                position: absolute;
-                top: 0;
-                left: -10px;
-            }
-
-            .sticky {
-                position: sticky;
-            } */
-    </style>
+    <title>Homework: Zomato Clone</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+    <header>
+        <div class="bg-overlay"></div>
+        <div class="container flex forward">
+            <div>Get App Now</div>
+            <nav>
+                <a href="">Log In</a>
+                <a href="">Sign Up</a>
+            </nav>
+        </div>
+        <div class="flex center">
+            <div>
+                <img
+                 src="https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png" 
+                 alt="">
+            </div>
+            <h3>Discover the best food and drink in Kuala Lumpur, MY</h3>
+            <div class="input-container">
+                <input class="input-format" placeholder="search for restaurants">
+            </div>
+        </div>
+    </header>
+    <div class="container grid mt-32">
+        <div class="card">
+            <div class="card-header">
+            </div>
+            <div class="card-body">
+                <h4>Go out for a meal</h4>
+                <p>View the city's favourite dining venues</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+            </div>
+            <div class="card-body">
+                <h4>Go out for a meal</h4>
+                <p>View the city's favourite dining venues</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="collections">
+            <h3>Collections</h3>
+            <div class="align-text-horizontally">
+                <p>
+                    Explore curated lists of top restaurants, cafes, pubs, and bars in Kuala Lumpur, based on trends
+                </p>
+                <a href="#">All collections in Kuala Lumpur</a>
+            </div>
+        </div>
+        <div class="collection-cards four-columns">
+            <div class="card-1">
+                <div class="text-bottom flex-bottom-right">
+                    <h4>Trending This Week</h4>
+                    <a href="#">30 places</a>
+                </div>
+            </div>
+            <div class="card-2">
+                <div class="text-bottom flex-bottom-right">
+                    <h4>Fantastic Fried Chicken</h4>
+                    <a href="#">10 places</a>
+                </div>
+            </div>
+            <div class="card-3">
+                <div class="text-bottom flex-bottom-right">
+                    <h4>Live Music</h4>
+                    <a href="#">13 places</a>
+                </div>
+            </div>
+            <div class="card-4">
+                <div class="text-bottom flex-bottom-right">
+                    <h4>Chicken Chop</h4>
+                    <a href="#">10 places</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sticky-rightside">
+        <p>This is just a box that stays on the center right of the page. I am very 'sticky' ;)</p>
+    </div>
+    <div class="fixed-bottom">
+        <p>
+            I am a box that stays at the bottom of the page. No matter how far you're scrolling, I am always here!
+        </p>
+        <div class="btn">
+            <a href="#">Accept</a>
+        </div>
+    </div>
     <!-- <div class="relative">
         <div class="absolute-1 box-design">Class 1</div>
         <div class="absolute-2 box-design">Class 2</div>
     </div> -->
     <!--Positioning Exercise-->
-    <div class="relative">
+    <!-- <div class="relative">
         <div class="absolute-1 box-design">This is Box 1</div>
         <div class="absolute-2 box-design">This is Box 2</div>
         <div class="absolute-3 box-design">This is Box 3</div>
         <div class="absolute-4 box-design">This is Box 4</div>
         <div class="absolute-5 box-design">This is Box 5</div>
-    </div>
-</body>
+    </div> -->
+</body> 
 </html>

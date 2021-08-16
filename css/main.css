@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 500px;
+}
+
+.bg-overlay {
+    background-color: rgb(0,0,0,0.4);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    margin: 0 auto 40px;
+    width: 90%;
+}
+
+.flex {
+    display: flex;
+}
+
+.center {
+    height: 100%;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.center h3{
+    color: white;
+}
+
+.center div:first-child{
+    width: 20%;
+}
+
+.center div:first-child img{
+    width: 100%;
+}
+
+.forward {
+    position: absolute;
+    z-index: 99;
+}
+
+.input-container {
+    width: 50%;
+}
+
+.input-container .input-format {
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    height: ;
+    width: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* Cards */
+.card {
+    border-radius: 20px;
+    border: 1px solid #b6b6b6;
+}
+
+.card-header {
+    background-image: url("https://b.zmtcdn.com/webFrontend/95f005332f5b9e71b9406828b63335331585809309.png?fit=around%7C402:360&crop=402:360");
+    height: 4em;
+}
+
+.mt-32 {
+    margin-top: 2em;
+}
+
+/*Collection Cards */
+
+.container .collections div {
+    margin-bottom: 30px;
+}
+
+.container .collection-cards div>.flex-bottom-right{
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.container .collection-cards div>.flex-bottom-right>* {
+    margin: 0;
+}
+
+.four-columns {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.card-1 {
+    background-image: url("https://b.zmtcdn.com/data/collections/1b8c164e8a18878468d8aabeb0b486b1_1625812715.jpg?output-format=webp");
+    height: 18rem;
+    width: 85%;
+}
+
+.card-2 {
+    background-image: url("https://b.zmtcdn.com/data/collections/2d7a4badf2c0c935eb5a4853741b14a2_1446709670_l.jpg?output-format=webp");
+    height: 18rem;
+    width: 85%;
+}
+
+.card-3 {
+    background-image: url("https://b.zmtcdn.com/data/collections/13705ddccd734513764d67858134bf05_1427096182_l.jpg?output-format=webp");
+    height: 18rem;
+    width: 85%;
+}
+
+.card-4 {
+    background-image: url("https://b.zmtcdn.com/data/collections/a76a01f14a03c677bea9179f87cb6149_1488715392.jpg?output-format=webp");
+    height: 18rem;
+    width: 85%;
+}
+
+/* Cookies Window */
+.fixed-bottom {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+}
+
+.fixed-bottom .btn{
+    background-color: #f77178;
+    /* height: 24px; */
+    width: 5%;
+    text-align: center;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 26px;
+}
+
+.fixed-bottom .btn>a{
+    color: white;
+    text-decoration: none;    
+}
+
+.fixed-bottom p {
+    margin: 0;
+}
+
+/* Box on the right side */
+.sticky-rightside {
+    position: sticky;
+    bottom: 50%;
+    left: 100%;
+    background-color: turquoise;
+    height: 200px;
+    width: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
